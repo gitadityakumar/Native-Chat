@@ -1,0 +1,53 @@
+.message-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.messages-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.empty-chat-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.empty-chat-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.new-chat-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.new-chat-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Updated styles to ensure AI and user messages are displayed on opposite sides */
+.message.sent {
+  align-self: flex-end;
+  background-color: #0078d4; /* Blue for user messages */
+  color: white;
+}
+
+.message.received {
+  align-self: flex-start;
+  background-color: #e1e1e1; /* Gray for AI messages */
+  color: black;
+}
