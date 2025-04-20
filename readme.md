@@ -48,20 +48,23 @@ native-chat/
 ### Installation
 
 1. Clone the repository:
-  ```bash
-  git clone https://github.com/your-repo/native-chat.git
-  cd native-chat
-  ```
+
+```bash
+git clone https://github.com/your-repo/native-chat.git
+cd native-chat
+```
 
 2. Install dependencies:
-  ```bash
-  npm install
-  ```
+
+```bash
+npm install
+```
 
 3. Start the development server:
-  ```bash
-  npm run dev
-  ```
+
+```bash
+npm run dev
+```
 
 4. Open the app in your browser at `http://localhost:5173`.
 
@@ -80,12 +83,20 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
+## Note
+
+- This web is under-development
+
+- FrontEnd UI of this web app is vibe coded !
+
 ## Acknowledgments
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Lucide Icons](https://lucide.dev/)
+- [MediaPipe](https://mediapipe-studio.webapps.google.com/studio/demo/llm_inference)
 
 ---
+
 Happy coding!
